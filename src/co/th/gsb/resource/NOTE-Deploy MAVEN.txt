@@ -1,0 +1,21 @@
+>> Install maven <<
+1. Download Maven from apache maven web.
+2. Extract file to directory
+3. Add (Maven path) to window Enviroment PATH (....maven path\bin)
+4. Test maven cmd.  
+5. mvn --version
+
+>>> Maven build war step <<<
+1. open window "cmd"/"terminal"
+2. cd to project directory
+3. stop cd on pom.xml directory.
+4. type maven command : mvn clean install -DskipTests
+5. wait project complie. if succes [.war] will export in target directory [..project path\target]
+
+>>> Maven build jar step <<<
+1. open window "cmd"/"terminal"
+2. cd to project directory
+3. stop cd on pom.xml directory.
+4. type maven command : mvn clean package
+5. wait project complie. if succes [.jar] will export in target directory [..project path\target]
+
